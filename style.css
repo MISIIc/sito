@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    background-color: #f5f5f5;
+    color: #333333;
+}
+h1 {
+    animation: color-change 3s infinite;
+    color: #00a800;
+    font-size: 24px;
+    font-family: Georgia, serif;
+  }
+@keyframes color-change {
+  0% {
+    color: blue;
+  }
+
+  50% {
+    color: red;
+  }
+
+  100% {
+    color: blue;
+  }
+}
+
+
